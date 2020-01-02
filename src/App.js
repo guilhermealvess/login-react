@@ -3,8 +3,7 @@ import React, { Component } from "react";
 import "./App.css";
 //import Header from "./components/Header";
 //import Footer from "./components/Footer";
-import Login from "./pages/login";
-//import Routes from './routes';
+import Routes from "./routes";
 
 class App extends Component {
   render() {
@@ -12,7 +11,7 @@ class App extends Component {
       <div className="App text-center font-weight-bold">
         {/*         <Routes /> */}
         {/* <Header title="Hello World!"></Header> */}
-        <Login></Login>
+        <Routes />
         {/* <Footer></Footer> */}
       </div>
     );
